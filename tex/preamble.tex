@@ -5,13 +5,18 @@
 
 \usepackage{nomencl}
 
-\newcommand{\englishczech}[2]{\iflanguage{czech}{#2}{\foreignlanguage{english}{#1}}}
 
 \newcommand{\cpp}{C++}
 
 \moderncvstyle{classic}
 %\moderncvcolor{blue}
 \usepackage[scale=0.75]{geometry}
+
+\newcommand{\englishczech}[2]{%
+\iflanguage{english}{#1}{%
+\iflanguage{czech}{#2}{%
+\errmessage{Unsupported language}
+}}}
 
 \firstname{\foreignlanguage{czech}{Filip}}
 \familyname{\foreignlanguage{czech}{Bártek}}
