@@ -10,4 +10,3 @@
 ## Root documents
 
 * bartekfilip-resume-en.tex
-* bartekfilip-resume-cs.tex
