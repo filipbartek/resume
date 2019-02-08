@@ -1,0 +1,210 @@
+{
+  "name": "Filip Bártek",
+  "meta": {
+    "format": "FRESH@0.6.0",
+    "version": "1.0.0"
+  },
+  "contact": {
+    "email": "filip.bartek@hotmail.com",
+    "phone": "+420 608 551 498",
+    "website": "http://filipbartek.github.io/"
+  },
+  "employment": {
+    "history": [
+      {
+        "employer": "Medical Technologies",
+        "position": "R&D Software Engineer",
+        "url": "https://www.medictech.com/",
+        "start": "2017",
+        "end": "2018",
+        "highlights": [
+          "Development and maintenance of an ECG signal processing library",
+          "Supervision of builds for two target platforms",
+          "Cooperation with a team in India",
+          "Technologies: C++, Google Test, CMake, g++, TeamCity, Visual Studio, GitLab, Ubuntu, Windows, JIRA, Doxygen, qmake, Qt Creator"
+        ],
+        "location": "Prague, Czech Republic"
+      },
+      {
+        "employer": "BTL India",
+        "position": "R&D Software Engineer",
+        "url": "http://www.btlnet.co.in/",
+        "start": "2016",
+        "end": "2017",
+        "highlights": [
+          "Setup of cross-platform build system, automated tests, code quality metrics, performance measurements",
+          "Technical job interviews",
+          "Cooperation with a team in Czech Republic",
+          "Technologies: C++, Google Test, g++, Qt 5.5, qmake, QML, Qt Creator, GitLab, Ubuntu, JIRA, TeamCity, gcov, LCOV, SonarQube"
+        ],
+        "location": "Bangalore, India"
+      },
+      {
+        "employer": "Hobrasoft",
+        "position": "Software developer",
+        "url": "https://www.hobrasoft.cz/",
+        "start": "2015",
+        "end": "2016",
+        "highlights": [
+          "Projects: GeoSign, PDF Manipulation Utility",
+          "Design and development of two applications that deal with digital signatures extensively",
+          "Technologies: Java, iText, Maven, NetBeans, C++, Qt 4.8, Qt 5, QML, OpenSSL, Qt Creator, Git, Phabricator, Windows, Ubuntu, Android"
+        ],
+        "location": "Rožnov pod Radhoštěm, Czech Republic"
+      },
+      {
+        "employer": "CERN",
+        "position": "Summer Student (internship)",
+        "url": "http://home.web.cern.ch/",
+        "start": "2013",
+        "end": "2013",
+        "highlights": [
+          "Extension of Clang Static Analyzer, a static program analysis tool written in and targeted at C++",
+          "Technologies: C++, Clang Static Analyzer, Git, JIRA, Linux"
+        ],
+        "location": "Geneva, Switzerland"
+      },
+      {
+        "employer": "Honeywell",
+        "position": "Software Design Engineer",
+        "url": "http://honeywell.com/",
+        "start": "2012",
+        "end": "2012",
+        "highlights": [
+          "Software development, code analysis, system verification planning, documentation, cooperation with a team in the United States",
+          "Technologies: C++, Visual Studio 6, SVN, Serena Dimensions, Windows"
+        ],
+        "location": "Brno, Czech Republic"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "title": "nbspacer",
+      "url": "https://github.com/filipbartek/nbspacer",
+      "start": "2016",
+      "end": "2016",
+      "keywords": [
+        "Python"
+      ]
+    },
+    {
+      "title": "missls",
+      "url": "https://github.com/filipbartek/missls",
+      "start": "2015",
+      "end": "2015",
+      "keywords": [
+        "GameMaker: Studio"
+      ]
+    },
+    {
+      "title": "Magic Dance Dance Carpet",
+      "url": "http://mddc.jirimaha.com/",
+      "start": "2013",
+      "end": "2013",
+      "keywords": [
+        "Unreal Development Kit"
+      ]
+    }
+  ],
+  "skills": {
+    "sets": [
+      {
+        "name": "Recent",
+        "level": "advanced",
+        "skills": [
+          "C++",
+          "Google Test",
+          "CMake",
+          "Git",
+          "TeamCity"
+        ]
+      },
+      {
+        "name": "Previous",
+        "level": "intermediate",
+        "skills": [
+          "Qt",
+          "qmake",
+          "Java",
+          "Python",
+          "OpenSSL",
+          "Maven",
+          "NetBeans",
+          "SVN"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "history": [
+      {
+        "title": "Mgr.",
+        "institution": "Charles University",
+        "area": "Theoretical Computer Science",
+        "studyType": "Master",
+        "start": "2012",
+        "end": "2015",
+        "url": "https://cuni.cz/",
+        "highlights": [
+          "Master thesis: [Minimum representations of Boolean functions defined by multiple intervals](https://is.cuni.cz/webapps/zzp/detail/163753/)",
+          "Main areas of interest: computational complexity, computationally hard problems, algorithms, artificial intelligence, robotics, computer game development, game studies"
+        ],
+        "location": "Prague, Czech Republic"
+      },
+      {
+        "title": "Bc.",
+        "institution": "Masaryk University",
+        "area": "Mathematical Informatics",
+        "studyType": "Bachelor",
+        "start": "2008",
+        "end": "2012",
+        "url": "http://muni.cz/",
+        "highlights": [
+          "Bachelor thesis: [Rabin Games on Finite Graphs [in Czech]](http://is.muni.cz/th/324945/fi_b/)"
+        ],
+        "location": "Brno, Czech Republic"
+      }
+    ]
+  },
+  "social": [
+    {
+      "network": "GitHub",
+      "user": "filipbartek",
+      "url": "https://github.com/filipbartek"
+    },
+    {
+      "network": "LinkedIn",
+      "user": "filipbartek",
+      "url": "https://www.linkedin.com/in/filipbartek/"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "level": "Expert"
+    },
+    {
+      "language": "Czech",
+      "level": "Native speaker"
+    },
+    {
+      "language": "Spanish",
+      "level": "Beginner"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Dialogue",
+      "summary": "Philosophical and structured, especially Socratic dialogue"
+    },
+    {
+      "name": "Games",
+      "summary": "Computer, independent, experimental; development"
+    },
+    {
+      "name": "Travelling",
+      "summary": "Low-cost"
+    }
+  ]
+}
