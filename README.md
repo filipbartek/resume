@@ -1,12 +1,9 @@
 # Filip Bártek's resume
 
-## Required apt packages
+## Quick start
 
-* texlive
-* texlive-fonts-extra
-* texlive-lang-czechslovak
-* texlive-lang-french
+`make`
 
-## Root documents
+## Root document
 
-* bartekfilip-resume-en.tex
+`resume.json`
