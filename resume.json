@@ -75,6 +75,18 @@
           "Technologies: C++, Visual Studio 6, SVN, Serena Dimensions, Windows"
         ],
         "location": "Brno, Czech Republic"
+      },
+      {
+        "employer": "Vogel Burda Communications s.r.o.",
+        "position": "External editor",
+        "url": "http://www.burda.cz/",
+        "start": "2006-06-21",
+        "end": "2006-12-14",
+        "highlights": [
+          "Writing reviews of freeware computer games for the Czech web site [Hrej.cz](http://www.hrej.cz/)",
+          "Distance job"
+        ],
+        "location": "Czech Republic"
       }
     ]
   },
@@ -90,18 +102,31 @@
     },
     {
       "title": "missls",
-      "url": "https://github.com/filipbartek/missls",
+      "role": "Game design, programming, sound",
+      "url": "http://gamejolt.com/games/missls/64566",
+      "repo": "https://github.com/filipbartek/missls",
       "start": "2015-04-17",
       "end": "2015-04-23",
+      "highlights": [
+        "Tactical nuclear warfare party minigame",
+        "Originally created solo in 48 hours for the game jam [Ludum Dare 32](http://ludumdare.com/compo/ludum-dare-32/)",
+        "Interesting features: minimalistic design, vector graphics, 2D planetary physics"
+      ],
       "keywords": [
         "GameMaker: Studio"
       ]
     },
     {
       "title": "Magic Dance Dance Carpet",
+      "role": "Software design, programming, game design",
       "url": "http://mddc.jirimaha.com/",
       "start": "2012-11-21",
       "end": "2013-11-27",
+      "highlights": [
+        "Prototype of an experience simulator of a magic carpet",
+        "Collaboration of five students of various backgrounds",
+        "Interesting features: dance pad controls, concave world"
+      ],
       "keywords": [
         "Unreal Development Kit"
       ]
@@ -138,6 +163,16 @@
   },
   "education": {
     "history": [
+      {
+        "title": "[Expert in English](https://certs.duolingo.com/d59xjfx9)",
+        "institution": "Duolingo English Test",
+        "area": "English",
+        "studyType": "Certification",
+        "start": "2015-07-14",
+        "end": "2015-07-14",
+        "grade": "10.0",
+        "url": "https://englishtest.duolingo.com/"
+      },
       {
         "title": "Mgr.",
         "institution": "Charles University",
@@ -201,6 +236,10 @@
     {
       "name": "Games",
       "summary": "Computer, independent, experimental; development"
+    },
+    {
+      "name": "Culture",
+      "summary": "Contemporary, alternative"
     },
     {
       "name": "Travelling",
