@@ -1,0 +1,176 @@
+{
+  "basics": {
+    "email": "filip.bartek@hotmail.com",
+    "phone": "+420 608 551 498",
+    "website": "http://filipbartek.github.io/",
+    "name": "Filip Bártek",
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "filipbartek",
+        "url": "https://github.com/filipbartek"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "filipbartek",
+        "url": "https://www.linkedin.com/in/filipbartek/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Medical Technologies",
+      "website": "https://www.medictech.com/",
+      "position": "R&D Software Engineer",
+      "startDate": "2017-11-13",
+      "endDate": "2018-11-23",
+      "highlights": [
+        "Development and maintenance of an ECG signal processing library",
+        "Supervision of builds for two target platforms",
+        "Cooperation with a team in India",
+        "Technologies: C++, Google Test, CMake, g++, TeamCity, Visual Studio, GitLab, Ubuntu, Windows, JIRA, Doxygen, qmake, Qt Creator"
+      ]
+    },
+    {
+      "company": "BTL India",
+      "website": "http://www.btlnet.co.in/",
+      "position": "R&D Software Engineer",
+      "startDate": "2016-09-26",
+      "endDate": "2017-10-17",
+      "highlights": [
+        "Setup of cross-platform build system, automated tests, code quality metrics, performance measurements",
+        "Technical job interviews",
+        "Cooperation with a team in Czech Republic",
+        "Technologies: C++, Google Test, g++, Qt 5.5, qmake, QML, Qt Creator, GitLab, Ubuntu, JIRA, TeamCity, gcov, LCOV, SonarQube"
+      ]
+    },
+    {
+      "company": "Hobrasoft",
+      "website": "https://www.hobrasoft.cz/",
+      "position": "Software developer",
+      "startDate": "2015-10-19",
+      "endDate": "2016-09-23",
+      "highlights": [
+        "Projects: GeoSign, PDF Manipulation Utility",
+        "Design and development of two applications that deal with digital signatures extensively",
+        "Technologies: Java, iText, Maven, NetBeans, C++, Qt 4.8, Qt 5, QML, OpenSSL, Qt Creator, Git, Phabricator, Windows, Ubuntu, Android"
+      ]
+    },
+    {
+      "company": "CERN",
+      "website": "http://home.web.cern.ch/",
+      "position": "Summer Student (internship)",
+      "startDate": "2013-07-01",
+      "endDate": "2013-09-06",
+      "highlights": [
+        "Extension of Clang Static Analyzer, a static program analysis tool written in and targeted at C++",
+        "Technologies: C++, Clang Static Analyzer, Git, JIRA, Linux"
+      ]
+    },
+    {
+      "company": "Honeywell",
+      "website": "http://honeywell.com/",
+      "position": "Software Design Engineer",
+      "startDate": "2012-04-01",
+      "endDate": "2012-09-30",
+      "highlights": [
+        "Software development, code analysis, system verification planning, documentation, cooperation with a team in the United States",
+        "Technologies: C++, Visual Studio 6, SVN, Serena Dimensions, Windows"
+      ]
+    },
+    {
+      "company": "Vogel Burda Communications s.r.o.",
+      "website": "http://www.burda.cz/",
+      "position": "External editor",
+      "startDate": "2006-06-21",
+      "endDate": "2006-12-14",
+      "highlights": [
+        "Writing reviews of freeware computer games for the Czech web site [Hrej.cz](http://www.hrej.cz/)",
+        "Distance job"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Duolingo English Test",
+      "gpa": "10.0",
+      "startDate": "2015-07-14",
+      "endDate": "2015-07-14",
+      "area": "English",
+      "studyType": "Certification"
+    },
+    {
+      "institution": "Charles University",
+      "startDate": "2012-09-19",
+      "endDate": "2015-06-11",
+      "area": "Theoretical Computer Science",
+      "studyType": "Master"
+    },
+    {
+      "institution": "Masaryk University",
+      "startDate": "2008-07-09",
+      "endDate": "2012-01-31",
+      "area": "Mathematical Informatics",
+      "studyType": "Bachelor"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Recent",
+      "level": "advanced",
+      "keywords": [
+        "C++",
+        "Google Test",
+        "CMake",
+        "Git",
+        "TeamCity"
+      ]
+    },
+    {
+      "name": "Previous",
+      "level": "intermediate",
+      "keywords": [
+        "Qt",
+        "qmake",
+        "Java",
+        "Python",
+        "OpenSSL",
+        "Maven",
+        "NetBeans",
+        "SVN"
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Dialogue",
+      "summary": "Philosophical and structured, especially Socratic dialogue"
+    },
+    {
+      "name": "Games",
+      "summary": "Computer, independent, experimental; development"
+    },
+    {
+      "name": "Culture",
+      "summary": "Contemporary, alternative"
+    },
+    {
+      "name": "Travelling",
+      "summary": "Low-cost"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "level": "Expert"
+    },
+    {
+      "language": "Czech",
+      "level": "Native speaker"
+    },
+    {
+      "language": "Spanish",
+      "level": "Beginner"
+    }
+  ]
+}
