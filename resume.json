@@ -15,8 +15,8 @@
         "employer": "Medical Technologies",
         "position": "R&D Software Engineer",
         "url": "https://www.medictech.com/",
-        "start": "2017",
-        "end": "2018",
+        "start": "2017-11-13",
+        "end": "2018-11-23",
         "highlights": [
           "Development and maintenance of an ECG signal processing library",
           "Supervision of builds for two target platforms",
@@ -29,8 +29,8 @@
         "employer": "BTL India",
         "position": "R&D Software Engineer",
         "url": "http://www.btlnet.co.in/",
-        "start": "2016",
-        "end": "2017",
+        "start": "2016-09-26",
+        "end": "2017-10-17",
         "highlights": [
           "Setup of cross-platform build system, automated tests, code quality metrics, performance measurements",
           "Technical job interviews",
@@ -43,8 +43,8 @@
         "employer": "Hobrasoft",
         "position": "Software developer",
         "url": "https://www.hobrasoft.cz/",
-        "start": "2015",
-        "end": "2016",
+        "start": "2015-10-19",
+        "end": "2016-09-23",
         "highlights": [
           "Projects: GeoSign, PDF Manipulation Utility",
           "Design and development of two applications that deal with digital signatures extensively",
@@ -56,8 +56,8 @@
         "employer": "CERN",
         "position": "Summer Student (internship)",
         "url": "http://home.web.cern.ch/",
-        "start": "2013",
-        "end": "2013",
+        "start": "2013-07-01",
+        "end": "2013-09-06",
         "highlights": [
           "Extension of Clang Static Analyzer, a static program analysis tool written in and targeted at C++",
           "Technologies: C++, Clang Static Analyzer, Git, JIRA, Linux"
@@ -68,8 +68,8 @@
         "employer": "Honeywell",
         "position": "Software Design Engineer",
         "url": "http://honeywell.com/",
-        "start": "2012",
-        "end": "2012",
+        "start": "2012-04-01",
+        "end": "2012-09-30",
         "highlights": [
           "Software development, code analysis, system verification planning, documentation, cooperation with a team in the United States",
           "Technologies: C++, Visual Studio 6, SVN, Serena Dimensions, Windows"
@@ -82,8 +82,8 @@
     {
       "title": "nbspacer",
       "url": "https://github.com/filipbartek/nbspacer",
-      "start": "2016",
-      "end": "2016",
+      "start": "2016-05-12",
+      "end": "2016-06-22",
       "keywords": [
         "Python"
       ]
@@ -91,8 +91,8 @@
     {
       "title": "missls",
       "url": "https://github.com/filipbartek/missls",
-      "start": "2015",
-      "end": "2015",
+      "start": "2015-04-17",
+      "end": "2015-04-23",
       "keywords": [
         "GameMaker: Studio"
       ]
@@ -100,8 +100,8 @@
     {
       "title": "Magic Dance Dance Carpet",
       "url": "http://mddc.jirimaha.com/",
-      "start": "2013",
-      "end": "2013",
+      "start": "2012-11-21",
+      "end": "2013-11-27",
       "keywords": [
         "Unreal Development Kit"
       ]
@@ -143,8 +143,8 @@
         "institution": "Charles University",
         "area": "Theoretical Computer Science",
         "studyType": "Master",
-        "start": "2012",
-        "end": "2015",
+        "start": "2012-09-19",
+        "end": "2015-06-11",
         "url": "https://cuni.cz/",
         "highlights": [
           "Master thesis: [Minimum representations of Boolean functions defined by multiple intervals](https://is.cuni.cz/webapps/zzp/detail/163753/)",
@@ -157,8 +157,8 @@
         "institution": "Masaryk University",
         "area": "Mathematical Informatics",
         "studyType": "Bachelor",
-        "start": "2008",
-        "end": "2012",
+        "start": "2008-07-09",
+        "end": "2012-01-31",
         "url": "http://muni.cz/",
         "highlights": [
           "Bachelor thesis: [Rabin Games on Finite Graphs [in Czech]](http://is.muni.cz/th/324945/fi_b/)"
