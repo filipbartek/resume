@@ -184,7 +184,7 @@
   "skills": {
     "sets": [
       {
-        "name": "Recent",
+        "name": "Advanced",
         "level": "advanced",
         "skills": [
           "C++",
@@ -195,7 +195,7 @@
         ]
       },
       {
-        "name": "Previous",
+        "name": "Intermediate",
         "level": "intermediate",
         "skills": [
           "Qt",
