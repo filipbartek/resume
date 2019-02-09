@@ -189,23 +189,34 @@
         "skills": [
           "C++",
           "Google Test",
-          "CMake",
-          "Git",
-          "TeamCity"
+          "Git"
         ]
       },
       {
         "name": "Intermediate",
         "level": "intermediate",
         "skills": [
+          "Python",
+          "CMake",
           "Qt",
           "qmake",
           "Java",
-          "Python",
-          "OpenSSL",
           "Maven",
-          "NetBeans",
-          "SVN"
+          "TeamCity",
+          "Doxygen"
+        ]
+      },
+      {
+        "name": "Elementary",
+        "level": "beginner",
+        "skills": [
+          "Unity",
+          "C#",
+          "Valgrind",
+          "SageMath",
+          "SVN",
+          "Vagrant",
+          "Ansible"
         ]
       }
     ]
