@@ -423,12 +423,36 @@
   ],
   "writing": [
     {
+      "title": "How do I find out who signed a PDF document?",
+      "category": "article",
+      "publisher": "Hobrasoft",
+      "date": "2016-03-17",
+      "url": "https://www.hobrasoft.cz/en/blog/bartek/pdf-signature",
+      "summary": "Exposure of a specific functionality of PDF Manipulation Utility"
+    },
+    {
+      "title": "PDFMU",
+      "category": "article",
+      "publisher": "Hobrasoft",
+      "date": "2016-02-23",
+      "url": "https://www.hobrasoft.cz/en/blog/bartek/pdfmu",
+      "summary": "Introduction of PDF Manipulation Utility, a tool I created"
+    },
+    {
       "title": "Minimum representations of Boolean functions defined by multiple intervals",
       "category": "thesis",
       "publisher": "Charles University",
       "date": "2015-06-04",
       "url": "https://is.cuni.cz/webapps/zzp/detail/163753/",
       "summary": "Diploma thesis"
+    },
+    {
+      "title": "The Best Amendment Computer Game Analysis",
+      "category": "article",
+      "publisher": "_Prague Invaders",
+      "date": "2013-11-15",
+      "url": "http://pragueinvaders.blogspot.com/2013/11/the-best-amendment-computer-game.html",
+      "summary": "Structured analysis of a computer game"
     },
     {
       "title": "Rabin Games on Finite Graphs",
