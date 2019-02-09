@@ -4,10 +4,34 @@
     "format": "FRESH@0.6.0",
     "version": "1.0.0"
   },
+  "info": {
+    "label": "Software developer"
+  },
+  "disposition": {
+    "travel": 50,
+    "commitment": [
+      "contract",
+      "permanent",
+      "part-time",
+      "seasonal",
+      "full-time"
+    ],
+    "remote": true,
+    "relocation": {
+      "willing": false
+    }
+  },
   "contact": {
     "email": "filip.bartek@hotmail.com",
     "phone": "+420 608 551 498",
     "website": "http://filipbartek.github.io/"
+  },
+  "location": {
+    "address": "Vinařská 1135/5",
+    "code": "170 00",
+    "city": "Praha 7",
+    "country": "CZ",
+    "region": "Hlavní město Praha"
   },
   "employment": {
     "history": [
@@ -214,6 +238,24 @@
       "url": "https://www.linkedin.com/in/filipbartek/"
     }
   ],
+  "writing": [
+    {
+      "title": "Minimum representations of Boolean functions defined by multiple intervals",
+      "category": "thesis",
+      "publisher": "Charles University",
+      "date": "2015-06-04",
+      "url": "https://is.cuni.cz/webapps/zzp/detail/163753/",
+      "summary": "Diploma thesis"
+    },
+    {
+      "title": "Rabin Games on Finite Graphs",
+      "category": "thesis",
+      "publisher": "Masaryk University",
+      "date": "2012-01-31",
+      "url": "https://is.muni.cz/th/324945/fi_b/",
+      "summary": "Bachelor's thesis"
+    }
+  ],
   "languages": [
     {
       "language": "English",
@@ -226,6 +268,38 @@
     {
       "language": "Spanish",
       "level": "Beginner"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Karthick N G",
+      "role": "Manager",
+      "employer": "BTL India",
+      "quote": "It was wonderful working together with you when I was at BTL. I remember our elaborate discussions and your piercing technical questions!\n\nYour analytical approach and dedication to work make you a great asset for any software team.",
+      "category": "professional",
+      "date": "2018-10-31",
+      "contact": [
+        {
+          "label": "LinkedIn",
+          "category": "web",
+          "value": "https://www.linkedin.com/in/karthickng/"
+        }
+      ]
+    },
+    {
+      "name": "Nikhil Augustine",
+      "role": "Co-worker",
+      "employer": "BTL India",
+      "quote": "I just wanted to say a big Thank you at this moment, You nay not have an idea of the amount you have influenced in my career. The working experience with you have made a big impact in the way how I approach the problems in our area of work.\n\nI wish you all the best, Keep up the enthusiasm and dedication and keep inspiring others.",
+      "category": "professional",
+      "date": "2018-11-12",
+      "contact": [
+        {
+          "label": "LinkedIn",
+          "category": "web",
+          "value": "https://www.linkedin.com/in/nikhilaugustine/"
+        }
+      ]
     }
   ],
   "interests": [
@@ -245,5 +319,48 @@
       "name": "Travelling",
       "summary": "Low-cost"
     }
-  ]
+  ],
+  "extracurricular": [
+    {
+      "title": "Participant",
+      "activity": "Global Game Jam 2019",
+      "location": "Prague, Czech Republic",
+      "start": "2019-01-25",
+      "end": "2019-01-27",
+      "url": "https://globalgamejam.org/2019/games/ratata"
+    },
+    {
+      "title": "Attendee",
+      "activity": "Game Developers Session",
+      "location": "Czech Republic",
+      "start": "2018-12-07",
+      "end": "2018-12-08",
+      "url": "http://www.gdsession.com/"
+    },
+    {
+      "title": "Participant",
+      "activity": "Ludum Dare 32",
+      "location": "Prague, Czech Republic",
+      "start": "2015-04-17",
+      "end": "2015-04-20",
+      "url": "http://ludumdare.com/compo/ludum-dare-32/?action=preview&uid=39872"
+    }
+  ],
+  "affiliation": {
+    "history": [
+      {
+        "category": "association",
+        "organization": "Sokratovské rozhovory z.s.",
+        "role": "Member",
+        "url": "https://www.socraticdialogue.org/",
+        "start": "2018-11-23",
+        "summary": "Training to become a facilitator of Socratic dialogue",
+        "keywods": [
+          "Philosophy",
+          "Socratic dialogue"
+        ],
+        "location": "Czech Republic"
+      }
+    ]
+  }
 }
