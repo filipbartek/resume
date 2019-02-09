@@ -142,40 +142,55 @@
   "projects": [
     {
       "title": "nbspacer",
+      "category": "private",
+      "summary": "Replaces spaces in HTML documents with `&nbsp;` where appropriate",
+      "role": "Creator",
       "url": "https://github.com/filipbartek/nbspacer",
+      "repo": "https://github.com/filipbartek/nbspacer",
       "start": "2016-05-12",
       "end": "2016-06-22",
+      "highlights": [
+        "Conservative (CVS-friendly) - only modifies the necessary characters",
+        "Supports two languages: English and Czech"
+      ],
+      "location": "Dolní Bečva, Czech Republic",
       "keywords": [
         "Python"
       ]
     },
     {
       "title": "missls",
-      "role": "Game design, programming, sound",
+      "category": "game jam",
+      "summary": "Tactical nuclear warfare party minigame",
+      "role": "Creator",
       "url": "http://gamejolt.com/games/missls/64566",
       "repo": "https://github.com/filipbartek/missls",
       "start": "2015-04-17",
       "end": "2015-04-23",
       "highlights": [
-        "Tactical nuclear warfare party minigame",
         "Originally created solo in 48 hours for the game jam [Ludum Dare 32](http://ludumdare.com/compo/ludum-dare-32/)",
+        "[Placed in top 8 % in category Mood](http://ludumdare.com/compo/ludum-dare-32/?action=preview&uid=39872)",
         "Interesting features: minimalistic design, vector graphics, 2D planetary physics"
       ],
+      "location": "Prague, Czech Republic",
       "keywords": [
         "GameMaker: Studio"
       ]
     },
     {
       "title": "Magic Dance Dance Carpet",
-      "role": "Software design, programming, game design",
-      "url": "http://mddc.jirimaha.com/",
+      "category": "university project",
+      "summary": "A magic carpet flight simulator",
+      "role": "Programmer",
+      "url": "http://filipbartek.github.io/mddc/",
+      "repo": "https://github.com/filipbartek/mddc",
       "start": "2012-11-21",
       "end": "2013-11-27",
       "highlights": [
-        "Prototype of an experience simulator of a magic carpet",
         "Collaboration of five students of various backgrounds",
         "Interesting features: dance pad controls, concave world"
       ],
+      "location": "Prague, Czech Republic",
       "keywords": [
         "Unreal Development Kit"
       ]
