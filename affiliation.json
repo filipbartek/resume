@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "format": "FRESH@0.6.0"
+  },
+  "affiliation": {
+    "history": [
+      {
+        "category": "association",
+        "organization": "Sokratovské rozhovory z.s.",
+        "role": "Member",
+        "url": "https://www.socraticdialogue.org/",
+        "start": "2018-11-23",
+        "summary": "Training to become a facilitator of Socratic dialogue",
+        "keywods": [
+          "Philosophy",
+          "Socratic dialogue"
+        ],
+        "location": "Czech Republic"
+      }
+    ]
+  }
+}

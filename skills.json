@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "format": "FRESH@0.6.0"
+  },
+  "skills": {
+    "sets": [
+      {
+        "name": "Advanced",
+        "level": "advanced",
+        "skills": [
+          "C++",
+          "Google Test",
+          "Git"
+        ]
+      },
+      {
+        "name": "Intermediate",
+        "level": "intermediate",
+        "skills": [
+          "Python",
+          "CMake",
+          "Qt",
+          "qmake",
+          "Java",
+          "Maven",
+          "TeamCity",
+          "Doxygen"
+        ]
+      },
+      {
+        "name": "Elementary",
+        "level": "beginner",
+        "skills": [
+          "Unity",
+          "C#",
+          "Valgrind",
+          "SageMath",
+          "SVN",
+          "Vagrant",
+          "Ansible"
+        ]
+      }
+    ]
+  }
+}

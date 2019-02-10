@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "format": "FRESH@0.6.0"
+  },
+  "samples": [
+    {
+      "title": "path_finding",
+      "summary": "Visualization of A* search",
+      "url": "https://cocalc.com/projects/f18cd484-a3f3-4c7d-a485-4c8f09c8b652/files/path_finding/?session=default",
+      "date": "2015-01-11",
+      "keywords": [
+        "SageMath"
+      ]
+    },
+    {
+      "title": "Stable roommates problem solver",
+      "summary": "An exercise in constraint programming",
+      "url": "https://github.com/filipbartek/srp",
+      "date": "2014-09-28",
+      "highlights": [
+        "[Report](http://filipbartek.github.io/srp/report.pdf)"
+      ],
+      "keywords": [
+        "Prolog",
+        "clpfd"
+      ]
+    },
+    {
+      "title": "NokiaWebGL",
+      "summary": "Extracts a 3D map of a large region from a Nokia service",
+      "url": "https://github.com/filipbartek/NokiaWebGL",
+      "date": "2014-06-11",
+      "keywords": [
+        "Python"
+      ]
+    },
+    {
+      "title": "Stationary analysis of one channel queueing systems",
+      "summary": "A mathematical analysis of a class of queueing systems",
+      "url": "http://filipbartek.github.io/queueing/queueing.pdf",
+      "date": "2014-06-08",
+      "keywords": [
+        "Mathematical modeling",
+        "LaTeX",
+        "SageMath"
+      ]
+    },
+    {
+      "title": "slnkcctr",
+      "summary": "slnkcctr [slinky conductor] is a music toy that helps slinky jugglers to extend their performance with music.",
+      "url": "https://github.com/filiboja/slnkcctr",
+      "date": "2014-05-26",
+      "highlights": [
+        "[Report](https://cocalc.com/share/a74372d3-72eb-4d0f-af58-57f48829f926/report/report.pdf?viewer=share)"
+      ],
+      "keywords": [
+        "C++",
+        "OpenCV"
+      ]
+    }
+  ]
+}

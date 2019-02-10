@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "format": "FRESH@0.6.0"
+  },
+  "languages": [
+    {
+      "language": "English",
+      "level": "Expert"
+    },
+    {
+      "language": "Czech",
+      "level": "Native speaker"
+    },
+    {
+      "language": "Spanish",
+      "level": "Beginner"
+    }
+  ]
+}

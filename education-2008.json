@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "format": "FRESH@0.6.0"
+  },
+  "education": {
+    "history": [
+      {
+        "title": "Mgr.",
+        "institution": "Charles University",
+        "area": "Theoretical Computer Science",
+        "studyType": "Master",
+        "start": "2012-09-19",
+        "end": "2015-06-11",
+        "url": "https://cuni.cz/",
+        "highlights": [
+          "Master thesis: [Minimum representations of Boolean functions defined by multiple intervals](https://is.cuni.cz/webapps/zzp/detail/163753/)",
+          "Main areas of interest: computational complexity, computationally hard problems, algorithms, artificial intelligence, robotics, computer game development, game studies"
+        ],
+        "location": "Prague, Czech Republic"
+      },
+      {
+        "title": "Bc.",
+        "institution": "Masaryk University",
+        "area": "Mathematical Informatics",
+        "studyType": "Bachelor",
+        "start": "2008-07-09",
+        "end": "2012-01-31",
+        "url": "http://muni.cz/",
+        "highlights": [
+          "Bachelor thesis: [Rabin Games on Finite Graphs [in Czech]](http://is.muni.cz/th/324945/fi_b/)"
+        ],
+        "location": "Brno, Czech Republic"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "format": "FRESH@0.6.0"
+  },
+  "education": {
+    "history": [
+      {
+        "title": "[Expert in English](https://certs.duolingo.com/d59xjfx9)",
+        "institution": "Duolingo English Test",
+        "area": "English",
+        "studyType": "Certification",
+        "start": "2015-07-14",
+        "end": "2015-07-14",
+        "grade": "10.0",
+        "url": "https://englishtest.duolingo.com/"
+      }
+    ]
+  }
+}

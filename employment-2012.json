@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "format": "FRESH@0.6.0"
+  },
+  "employment": {
+    "history": [
+      {
+        "employer": "Medical Technologies",
+        "position": "R&D Software Engineer",
+        "url": "https://www.medictech.com/",
+        "start": "2017-11-13",
+        "end": "2018-11-23",
+        "summary": "Development and maintenance of an ECG signal processing library",
+        "highlights": [
+          "Supervision of builds for two target platforms",
+          "Cooperation with a team based in India",
+          "Technologies: C++, Google Test, CMake, g++, TeamCity, Visual Studio 2015, GitLab, Ubuntu, Windows, JIRA, Doxygen, qmake, Qt Creator"
+        ],
+        "location": "Prague, Czech Republic",
+        "keywords": [
+          "C++",
+          "Visual Studio"
+        ]
+      },
+      {
+        "employer": "BTL India",
+        "position": "R&D Software Engineer",
+        "url": "http://www.btlnet.co.in/",
+        "start": "2016-09-26",
+        "end": "2017-10-17",
+        "summary": "Development of a medical device",
+        "highlights": [
+          "Setup of cross-platform build system, automated tests, code quality metrics, performance measurements",
+          "Technical job interviews",
+          "Cooperation with a team based in Czech Republic",
+          "Technologies: C++, Google Test, g++, Qt 5.5, qmake, QML, Qt Creator, GitLab, Ubuntu, JIRA, TeamCity, gcov, LCOV, SonarQube"
+        ],
+        "location": "Bangalore, India",
+        "keywords": [
+          "C++",
+          "Qt 5.5",
+          "Linux"
+        ]
+      },
+      {
+        "employer": "Hobrasoft",
+        "position": "Software developer",
+        "url": "https://www.hobrasoft.cz/",
+        "start": "2015-10-19",
+        "end": "2016-09-23",
+        "summary": "Development of applications for Windows and Android",
+        "highlights": [
+          "Design and development of two applications that deal with digital signatures extensively",
+          "Prototype of a Qt-based Android app",
+          "Technologies: Java, iText, Maven, NetBeans, C++, Qt 4.8, Qt 5, QML, OpenSSL, Qt Creator, Git, Phabricator, Windows, Ubuntu, Android"
+        ],
+        "location": "Rožnov pod Radhoštěm, Czech Republic",
+        "keywords": [
+          "Java",
+          "C++",
+          "Qt",
+          "Android"
+        ]
+      },
+      {
+        "employer": "CERN",
+        "position": "Summer Student (intern)",
+        "url": "http://home.web.cern.ch/",
+        "start": "2013-07-01",
+        "end": "2013-09-06",
+        "summary": "Extension of Clang Static Analyzer with additonal checkers",
+        "highlights": [
+          "Technologies: C++, Clang Static Analyzer, Git, JIRA, Linux"
+        ],
+        "location": "Geneva, Switzerland",
+        "keywords": [
+          "C++",
+          "Clang Static Analyzer"
+        ]
+      },
+      {
+        "employer": "Honeywell",
+        "position": "Software Design Engineer",
+        "url": "http://honeywell.com/",
+        "start": "2012-04-01",
+        "end": "2012-09-30",
+        "summary": "Development of a device that helps testing of aeroplanes",
+        "highlights": [
+          "Software development, code analysis, system verification planning, documentation, cooperation with a team in the United States",
+          "Technologies: C++, Visual Studio 6, SVN, Serena Dimensions CM, Windows"
+        ],
+        "location": "Brno, Czech Republic",
+        "keywords": [
+          "C++"
+        ]
+      }
+    ]
+  }
+}

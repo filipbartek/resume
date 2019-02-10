@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "format": "FRESH@0.6.0"
+  },
+  "extracurricular": [
+    {
+      "title": "Participant",
+      "activity": "Global Game Jam 2019",
+      "location": "Prague, Czech Republic",
+      "start": "2019-01-25",
+      "end": "2019-01-27",
+      "url": "https://globalgamejam.org/2019/games/ratata"
+    },
+    {
+      "title": "Attendee",
+      "activity": "Game Developers Session",
+      "location": "Czech Republic",
+      "start": "2018-12-07",
+      "end": "2018-12-08",
+      "url": "http://www.gdsession.com/"
+    },
+    {
+      "title": "Participant",
+      "activity": "Ludum Dare 32",
+      "location": "Prague, Czech Republic",
+      "start": "2015-04-17",
+      "end": "2015-04-20",
+      "url": "http://ludumdare.com/compo/ludum-dare-32/?action=preview&uid=39872"
+    }
+  ]
+}

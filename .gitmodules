@@ -1,0 +1,4 @@
+[submodule "fresh-resume-schema"]
+	path = fresh-resume-schema
+	url = https://github.com/filipbartek/fresh-resume-schema.git
+	branch = jsonmerge-compatibility

@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "format": "FRESH@0.6.0"
+  },
+  "interests": [
+    {
+      "name": "Dialogue",
+      "summary": "Philosophical and structured, especially Socratic dialogue"
+    },
+    {
+      "name": "Games",
+      "summary": "Computer, independent, experimental; development"
+    },
+    {
+      "name": "Culture",
+      "summary": "Contemporary, alternative"
+    },
+    {
+      "name": "Travelling",
+      "summary": "Low-cost"
+    }
+  ]
+}

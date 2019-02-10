@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "format": "FRESH@0.6.0"
+  },
+  "disposition": {
+    "travel": 50,
+    "commitment": [
+      "contract",
+      "permanent",
+      "part-time",
+      "seasonal",
+      "full-time"
+    ],
+    "remote": true,
+    "relocation": {
+      "willing": false
+    }
+  }
+}

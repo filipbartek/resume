@@ -1,0 +1,19 @@
+{
+  "name": "Filip Bártek",
+  "meta": {
+    "format": "FRESH@0.6.0",
+    "version": "1.0.0"
+  },
+  "contact": {
+    "email": "filip.bartek@hotmail.com",
+    "phone": "+420 608 551 498",
+    "website": "http://filipbartek.github.io/"
+  },
+  "location": {
+    "address": "Vinařská 1135/5",
+    "code": "170 00",
+    "city": "Praha 7",
+    "country": "CZ",
+    "region": "Hlavní město Praha"
+  }
+}

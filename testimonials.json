@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "format": "FRESH@0.6.0"
+  },
+  "testimonials": [
+    {
+      "name": "Karthick N G",
+      "role": "Manager",
+      "employer": "BTL India",
+      "quote": "It was wonderful working together with you when I was at BTL. I remember our elaborate discussions and your piercing technical questions!\n\nYour analytical approach and dedication to work make you a great asset for any software team.",
+      "category": "professional",
+      "date": "2018-10-31",
+      "contact": [
+        {
+          "label": "LinkedIn",
+          "category": "web",
+          "value": "https://www.linkedin.com/in/karthickng/"
+        }
+      ]
+    },
+    {
+      "name": "Nikhil Augustine",
+      "role": "Co-worker",
+      "employer": "BTL India",
+      "quote": "I just wanted to say a big Thank you at this moment, You nay not have an idea of the amount you have influenced in my career. The working experience with you have made a big impact in the way how I approach the problems in our area of work.\n\nI wish you all the best, Keep up the enthusiasm and dedication and keep inspiring others.",
+      "category": "professional",
+      "date": "2018-11-12",
+      "contact": [
+        {
+          "label": "LinkedIn",
+          "category": "web",
+          "value": "https://www.linkedin.com/in/nikhilaugustine/"
+        }
+      ]
+    }
+  ]
+}

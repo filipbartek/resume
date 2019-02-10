@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "format": "FRESH@0.6.0"
+  },
+  "projects": [
+    {
+      "title": "Ratata",
+      "category": "game jam",
+      "summary": "A rhythm game for Windows created in Unity",
+      "role": "Programmer",
+      "url": "https://globalgamejam.org/2019/games/ratata",
+      "repo": "https://github.com/ggj19-ratata/ratata",
+      "start": "2019-01-25",
+      "end": "2019-01-28",
+      "highlights": [
+        "Cooperation of four creators of various backgrounds",
+        "Created in 48 hours for [Global Game Jam](https://globalgamejam.org/) 2019"
+      ],
+      "location": "Prague, Czech Republic",
+      "keywords": [
+        "Unity"
+      ]
+    },
+    {
+      "title": "nbspacer",
+      "category": "private",
+      "summary": "Replaces spaces in HTML documents with `&nbsp;` where appropriate",
+      "role": "Creator",
+      "url": "https://github.com/filipbartek/nbspacer",
+      "repo": "https://github.com/filipbartek/nbspacer",
+      "start": "2016-05-12",
+      "end": "2016-06-22",
+      "highlights": [
+        "Conservative (CVS-friendly) - only modifies the necessary characters",
+        "Supports two languages: English and Czech"
+      ],
+      "location": "Dolní Bečva, Czech Republic",
+      "keywords": [
+        "Python"
+      ]
+    },
+    {
+      "title": "GeoSign",
+      "category": "commercial",
+      "summary": "Assists Czech land surveyors in digitally signing documents and sending them to cadastre offices",
+      "role": "Programmer",
+      "url": "https://geosign.hobrasoft.cz/",
+      "start": "2015-10-19",
+      "end": "2016-09-15",
+      "location": "Rožnov pod Radhoštěm, Czech Republic",
+      "keywords": [
+        "C++",
+        "Qt 4.8"
+      ],
+      "employer": "Hobrasoft"
+    },
+    {
+      "title": "PDF Manipulation Utility",
+      "category": "open-source",
+      "summary": "A tool for manipulation with PDF documents",
+      "role": "Creator",
+      "url": "http://hobrasoft-cz.github.io/PDFMU/",
+      "repo": "https://github.com/hobrasoft-cz/PDFMU",
+      "start": "2015-10-19",
+      "end": "2016-09-15",
+      "highlights": [
+        "Can be used to inspect, digitally sign or attach a file",
+        "[Extensive project documentation](http://hobrasoft-cz.github.io/PDFMU/)"
+      ],
+      "location": "Rožnov pod Radhoštěm, Czech Republic",
+      "keywords": [
+        "Java",
+        "iText",
+        "Maven"
+      ],
+      "employer": "Hobrasoft"
+    },
+    {
+      "title": "missls",
+      "category": "game jam",
+      "summary": "Tactical nuclear warfare party minigame",
+      "role": "Creator",
+      "url": "http://gamejolt.com/games/missls/64566",
+      "repo": "https://github.com/filipbartek/missls",
+      "start": "2015-04-17",
+      "end": "2015-04-23",
+      "highlights": [
+        "Originally created solo in 48 hours for the game jam [Ludum Dare 32](http://ludumdare.com/compo/ludum-dare-32/)",
+        "[Placed in top 8 % in category Mood](http://ludumdare.com/compo/ludum-dare-32/?action=preview&uid=39872)",
+        "Interesting features: minimalistic design, vector graphics, 2D planetary physics"
+      ],
+      "location": "Prague, Czech Republic",
+      "keywords": [
+        "GameMaker: Studio"
+      ]
+    },
+    {
+      "title": "Static Analysis Suite",
+      "category": "open-source",
+      "summary": "Extension of Clang Static Analyzer with a custom checker",
+      "role": "Creator",
+      "url": "https://cds.cern.ch/record/1597539",
+      "start": "2013-07-01",
+      "end": "2013-09-06",
+      "highlights": [
+        "Feasibility study of replacement of Coverity with Clang Static Analyser",
+        "Focus on multithreading bugs"
+      ],
+      "location": "Geneva, Switzerland",
+      "keywords": [
+        "Clang Static Analyzer"
+      ],
+      "employer": "CERN"
+    },
+    {
+      "title": "Magic Dance Dance Carpet",
+      "category": "university project",
+      "summary": "A magic carpet flight simulator",
+      "role": "Programmer",
+      "url": "http://filipbartek.github.io/mddc/",
+      "repo": "https://github.com/filipbartek/mddc",
+      "start": "2012-11-21",
+      "end": "2013-11-27",
+      "highlights": [
+        "Collaboration of five students of various backgrounds",
+        "Interesting features: dance pad controls, concave world"
+      ],
+      "location": "Prague, Czech Republic",
+      "keywords": [
+        "Unreal Development Kit"
+      ]
+    }
+  ]
+}
