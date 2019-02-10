@@ -1,4 +1,4 @@
-.PHONY: all clean themes
+.PHONY: all clean jrs
 
 sources_pdf = \
 basic.json \
@@ -6,7 +6,7 @@ info-label.json \
 disposition.json \
 employment-2012.json \
 skills.json \
-education-2008.json \
+education.json \
 social.json \
 languages.json
 
@@ -29,7 +29,8 @@ sources_all = \
 basic.json \
 info-label.json \
 disposition.json \
-employment.json \
+employment-2012.json \
+employment-2006.json \
 projects.json \
 skills.json \
 education.json \
@@ -46,17 +47,27 @@ targets = docs/index.html docs/resume.pdf
 
 all: $(targets)
 
-employment.json: employment-2012.json employment-2006.json
-	./jsonmerge-cli.py employment-2012.json employment-2006.json > employment.json
+resume-html.json: $(sources_html)
+	./jsonmerge-cli.py $(sources_html) > resume-html.json
 
-education.json: education-2015.json education-2008.json
-	./jsonmerge-cli.py education-2015.json education-2008.json > education.json
+docs/index.html: resume-html.json
+	hackmyresume build resume-html.json to docs/index.html --no-escape
 
-docs/index.html: $(sources_html)
-	hackmyresume build $(sources_html) to docs/index.html --no-escape
+resume-pdf.json: $(sources_pdf)
+	./jsonmerge-cli.py $(sources_pdf) > resume-pdf.json
 
-docs/resume.pdf: $(sources_pdf)
-	hackmyresume build $(sources_pdf) to docs/resume.pdf --no-escape -t compact
+docs/resume.pdf: resume-pdf.json
+	hackmyresume build resume-pdf.json to docs/resume.pdf --no-escape -t compact
+
+jrs: jrs/html/resume.html
+
+jrs/html/resume.json: resume-html.json
+	mkdir -p jrs/html
+	hackmyresume convert resume-html.json to jrs/html/resume.json
+
+# Themes: modern, crisp, flat
+jrs/html/resume.html: jrs/html/resume.json
+	cd jrs/html && resume export resume.html
 
 clean:
-	-rm $(targets)
+	-rm $(targets) resume-pdf.json resume-html.json jrs/html/resume.json jrs/html/resume.html
