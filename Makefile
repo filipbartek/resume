@@ -46,7 +46,7 @@ interests.json \
 extracurricular.json \
 affiliation.json
 
-main_targets = docs/index.html docs/resume.pdf
+main_targets = docs/index.html docs/bartekfilip-resume-en.pdf
 
 main: $(main_targets)
 all: $(main_targets) fresh_html jrs_html
@@ -60,7 +60,7 @@ docs/index.html: resume-html.json
 resume-pdf.json: $(addprefix src/,$(sources_pdf))
 	./jsonmerge-cli.py $+ > $@
 
-docs/resume.pdf: resume-pdf.json
+docs/bartekfilip-resume-en.pdf: resume-pdf.json
 	hackmyresume build $+ to $@ --no-escape -t fresh-themes/themes/compact
 
 fresh_html_themes = modern positive compact basis
