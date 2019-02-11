@@ -1,4 +1,4 @@
-.PHONY: all clean jrs
+.PHONY: main all clean fresh_html jrs_html
 
 sources_pdf = \
 basic.json \
@@ -43,9 +43,10 @@ interests.json \
 extracurricular.json \
 affiliation.json
 
-targets = docs/index.html docs/resume.pdf
+main_targets = docs/index.html docs/resume.pdf
 
-all: $(targets)
+main: $(main_targets)
+all: $(main_targets) fresh_html jrs_html
 
 resume-html.json: $(sources_html)
 	./jsonmerge-cli.py $+ > $@
@@ -59,15 +60,21 @@ resume-pdf.json: $(sources_pdf)
 docs/resume.pdf: resume-pdf.json
 	hackmyresume build $+ to $@ --no-escape -t compact
 
-jrs: jrs/html/resume.html
+fresh_html_themes = modern positive compact basis
+fresh_html_targets = $(addprefix fresh/,$(addsuffix .html,$(fresh_html_themes)))
+fresh_html: $(fresh_html_targets)
+fresh/%.html: resume-html.json
+	hackmyresume build $+ to $@ --no-escape -t $(basename $(@F))
 
 jrs/html/resume.json: resume-html.json
 	mkdir -p $(@D)
 	hackmyresume convert $+ to $@
 
-# Themes: modern, crisp, flat
-jrs/html/resume.html: jrs/html/resume.json
-	cd $(@D) && resume export $(@F)
+jrs_themes = modern crisp flat
+jrs_html_targets = $(addprefix jrs/html/,$(addsuffix .html,$(jrs_themes)))
+jrs_html: $(jrs_html_targets)
+jrs/html/%.html: jrs/html/resume.json
+	cd $(@D) && resume export $(@F) --theme $(basename $(@F))
 
 clean:
-	-rm $(targets) resume-pdf.json resume-html.json jrs/html/resume.json jrs/html/resume.html
+	-rm $(main_targets) resume-pdf.json resume-html.json $(fresh_html_targets) jrs/html/resume.json $(jrs_html_targets)
