@@ -61,7 +61,7 @@ resume-pdf.json: $(sources_pdf)
 	./jsonmerge-cli.py $+ > $@
 
 docs/resume.pdf: resume-pdf.json
-	hackmyresume build $+ to $@ --no-escape -t compact
+	hackmyresume build $+ to $@ --no-escape -t fresh-themes/themes/compact
 
 fresh_html_themes = modern positive compact basis
 fresh_html_targets = $(addprefix fresh/,$(addsuffix .html,$(fresh_html_themes)))
