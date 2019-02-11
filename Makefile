@@ -52,7 +52,7 @@ resume-html.json: $(sources_html)
 	./jsonmerge-cli.py $+ > $@
 
 docs/index.html: resume-html.json
-	hackmyresume build $+ to $@ --no-escape
+	hackmyresume build $+ to $@ --no-escape -t fresh-themes/themes/positive
 
 resume-pdf.json: $(sources_pdf)
 	./jsonmerge-cli.py $+ > $@

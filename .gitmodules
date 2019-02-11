@@ -2,3 +2,7 @@
 	path = fresh-resume-schema
 	url = https://github.com/filipbartek/fresh-resume-schema.git
 	branch = jsonmerge-compatibility
+[submodule "fresh-themes"]
+	path = fresh-themes
+	url = https://github.com/filipbartek/fresh-themes.git
+	branch = filipbartek
