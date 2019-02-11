@@ -48,26 +48,26 @@ targets = docs/index.html docs/resume.pdf
 all: $(targets)
 
 resume-html.json: $(sources_html)
-	./jsonmerge-cli.py $(sources_html) > resume-html.json
+	./jsonmerge-cli.py $+ > $@
 
 docs/index.html: resume-html.json
-	hackmyresume build resume-html.json to docs/index.html --no-escape
+	hackmyresume build $+ to $@ --no-escape
 
 resume-pdf.json: $(sources_pdf)
-	./jsonmerge-cli.py $(sources_pdf) > resume-pdf.json
+	./jsonmerge-cli.py $+ > $@
 
 docs/resume.pdf: resume-pdf.json
-	hackmyresume build resume-pdf.json to docs/resume.pdf --no-escape -t compact
+	hackmyresume build $+ to $@ --no-escape -t compact
 
 jrs: jrs/html/resume.html
 
 jrs/html/resume.json: resume-html.json
-	mkdir -p jrs/html
-	hackmyresume convert resume-html.json to jrs/html/resume.json
+	mkdir -p $(@D)
+	hackmyresume convert $+ to $@
 
 # Themes: modern, crisp, flat
 jrs/html/resume.html: jrs/html/resume.json
-	cd jrs/html && resume export resume.html
+	cd $(@D) && resume export $(@F)
 
 clean:
 	-rm $(targets) resume-pdf.json resume-html.json jrs/html/resume.json jrs/html/resume.html
