@@ -64,12 +64,13 @@
       },
       {
         "employer": "CERN",
-        "position": "Summer Student (intern)",
+        "position": "Summer Student",
         "url": "http://home.web.cern.ch/",
         "start": "2013-07-01",
         "end": "2013-09-06",
         "summary": "Extension of Clang Static Analyzer with additonal checkers",
         "highlights": [
+          "Summer school combined with a practical project",
           "Technologies: C++, Clang Static Analyzer, Git, JIRA, Linux"
         ],
         "location": "Geneva, Switzerland",
