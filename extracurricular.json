@@ -9,7 +9,10 @@
       "location": "Prague, Czech Republic",
       "start": "2019-01-25",
       "end": "2019-01-27",
-      "url": "https://globalgamejam.org/2019/games/ratata"
+      "url": "https://globalgamejam.org/2019/games/ratata",
+      "keywords": [
+        "Unity"
+      ]
     },
     {
       "title": "Attendee",
@@ -17,7 +20,22 @@
       "location": "Prague, Czech Republic",
       "start": "2018-12-07",
       "end": "2018-12-08",
-      "url": "http://www.gdsession.com/"
+      "url": "http://www.gdsession.com/",
+      "keywords": [
+        "Video game development"
+      ]
+    },
+    {
+      "title": "Student",
+      "activity": "Software Testing (online course)",
+      "start": "2016-04-16",
+      "end": "2016-04-16",
+      "url": "https://eu.udacity.com/course/software-testing--cs258",
+      "keywords": [
+        "Python",
+        "Test driven development",
+        "Random testing"
+      ]
     },
     {
       "title": "Expert in English",
@@ -32,7 +50,10 @@
       "location": "Prague, Czech Republic",
       "start": "2015-04-17",
       "end": "2015-04-20",
-      "url": "http://ludumdare.com/compo/ludum-dare-32/?action=preview&uid=39872"
+      "url": "http://ludumdare.com/compo/ludum-dare-32/?action=preview&uid=39872",
+      "keywords": [
+        "GameMaker: Studio"
+      ]
     }
   ]
 }
