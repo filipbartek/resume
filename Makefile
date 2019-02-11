@@ -7,7 +7,7 @@ disposition.json \
 employment-2012.json \
 skills.json \
 education.json \
-social.json \
+social-0.json \
 languages.json
 
 sources_html = \
@@ -18,7 +18,8 @@ employment-2012.json \
 projects.json \
 skills.json \
 education.json \
-social.json \
+social-0.json \
+social-1.json \
 languages.json \
 samples.json \
 testimonials.json \
@@ -34,7 +35,9 @@ employment-2006.json \
 projects.json \
 skills.json \
 education.json \
-social.json \
+social-0.json \
+social-1.json \
+social-2.json \
 writing.json \
 languages.json \
 samples.json \

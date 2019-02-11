@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "format": "FRESH@0.6.0"
+  },
+  "social": [
+    {
+      "network": "GitHub",
+      "user": "filipbartek",
+      "url": "https://github.com/filipbartek",
+      "fa-icon": "github"
+    },
+    {
+      "network": "LinkedIn",
+      "user": "filipbartek",
+      "url": "https://www.linkedin.com/in/filipbartek/",
+      "fa-icon": "linkedin"
+    }
+  ]
+}

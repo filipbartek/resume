@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "format": "FRESH@0.6.0"
+  },
+  "social": [
+    {
+      "network": "Google+",
+      "user": "+FilipBártek",
+      "url": "https://plus.google.com/u/0/+FilipB%C3%A1rtek",
+      "fa-icon": "google-plus"
+    },
+    {
+      "network": "Charles University",
+      "user": "Filip Bártek",
+      "url": "https://is.cuni.cz/studium/eng/kdojekdo/index.php?do=detail&si=378918"
+    },
+    {
+      "network": "Masaryk University",
+      "user": "324945",
+      "url": "https://is.muni.cz/osoba/324945?lang=en"
+    },
+    {
+      "network": "CERN Profiles",
+      "user": "Filip Bartek",
+      "url": "https://profiles.web.cern.ch/748534"
+    }
+  ]
+}
