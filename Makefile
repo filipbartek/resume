@@ -51,13 +51,13 @@ main_targets = docs/index.html docs/resume.pdf
 main: $(main_targets)
 all: $(main_targets) fresh_html jrs_html
 
-resume-html.json: $(sources_html)
+resume-html.json: $(addprefix src/,$(sources_html))
 	./jsonmerge-cli.py $+ > $@
 
 docs/index.html: resume-html.json
 	hackmyresume build $+ to $@ --no-escape -t fresh-themes/themes/positive
 
-resume-pdf.json: $(sources_pdf)
+resume-pdf.json: $(addprefix src/,$(sources_pdf))
 	./jsonmerge-cli.py $+ > $@
 
 docs/resume.pdf: resume-pdf.json
