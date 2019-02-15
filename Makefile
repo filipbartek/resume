@@ -5,10 +5,13 @@ basic.json \
 info-label.json \
 disposition.json \
 employment-2012.json \
+projects.json \
 skills.json \
 education.json \
 social-0.json \
-languages.json
+languages.json \
+samples.json \
+extracurricular.json
 
 sources_html = \
 basic.json \
