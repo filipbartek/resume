@@ -154,6 +154,11 @@
               color: #B16666;
             }
             
+            /* https://stackoverflow.com/a/10405305/4054250 */
+            span.keyword:not(:last-of-type):after {
+              content: ', ';
+            }
+            
             thead {
               display: none;
             }
@@ -254,15 +259,28 @@
                     <tbody>
                         <tr>
                             <td style="width: 25%;">Advanced</td>
-                            <td class="keywords">C++ Google Test Git</td>
+                            <td class="keywords"><span class="keyword">C++</span><span class="keyword">Google Test</span>
+                                <span
+                                class="keyword">Git</span>
+                            </td>
                         </tr>
                         <tr>
                             <td style="width: 25%;">Intermediate</td>
-                            <td class="keywords">Python CMake Qt qmake Java Maven TeamCity Doxygen</td>
+                            <td class="keywords"><span class="keyword">Python</span><span class="keyword">CMake</span>
+                                <span
+                                class="keyword">Qt</span><span class="keyword">qmake</span><span class="keyword">Java</span>
+                                    <span
+                                    class="keyword">Maven</span><span class="keyword">TeamCity</span><span class="keyword">Doxygen</span>
+                            </td>
                         </tr>
                         <tr>
                             <td style="width: 25%;">Elementary</td>
-                            <td class="keywords">Unity C# Valgrind SageMath SVN Vagrant Ansible</td>
+                            <td class="keywords"><span class="keyword">Unity</span><span class="keyword">C#</span>
+                                <span
+                                class="keyword">Valgrind</span><span class="keyword">SageMath</span><span class="keyword">SVN</span>
+                                    <span
+                                    class="keyword">Vagrant</span><span class="keyword">Ansible</span>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
@@ -274,9 +292,10 @@
 
                 </header>
                 <div>
-                     <h3><em>R&amp;D Software Engineer</em>,
+                     <h3>
+              <em>R&amp;D Software Engineer</em>,
               <a href="https://www.medictech.com/">BTL Medical Technologies CZ</a>
-              </h3>
+            </h3>
  <span class="tenure">2017-11 — 2018-11</span>
  <span class="location">Prague, Czech Republic</span>
 
@@ -287,14 +306,14 @@
                         <li>Supervision of builds for two target platforms</li>
                         <li>Cooperation with a team based in India</li>
                         <li>Technologies: C++, Google Test, CMake, g++, TeamCity, Visual Studio 2015,
-                            GitLab, Ubuntu, Windows, JIRA, Doxygen, qmake, Qt Creator</li>
-                    </ul> <span class="keywords">C++ Visual Studio </span>
-
+                            GitLab, Ubuntu, Windows, JIRA, Doxygen, qmake, Qt Creator, C#, Python</li>
+                    </ul> <span class="keywords"><span class="keyword">C++</span><span class="keyword">Visual Studio</span></span>
                 </div>
                 <div>
-                     <h3><em>R&amp;D Software Engineer</em>,
+                     <h3>
+              <em>R&amp;D Software Engineer</em>,
               <a href="http://www.btlnet.co.in/">BTL India</a>
-              </h3>
+            </h3>
  <span class="tenure">2016-09 — 2017-10</span>
  <span class="location">Bangalore, India</span>
 
@@ -308,13 +327,16 @@
                         <li>Cooperation with a team based in Czech Republic</li>
                         <li>Technologies: C++, Google Test, g++, Qt 5.5, qmake, QML, Qt Creator, GitLab,
                             Ubuntu, JIRA, TeamCity, gcov, LCOV, SonarQube</li>
-                    </ul> <span class="keywords">C++ Qt 5.5 Linux </span>
-
+                    </ul> <span class="keywords"><span class="keyword">C++</span><span class="keyword">Qt 5.5</span>
+                    <span
+                    class="keyword">Linux</span>
+                        </span>
                 </div>
                 <div>
-                     <h3><em>Software developer</em>,
+                     <h3>
+              <em>Software developer</em>,
               <a href="https://www.hobrasoft.cz/">Hobrasoft</a>
-              </h3>
+            </h3>
  <span class="tenure">2015-10 — 2016-09</span>
  <span class="location">Rožnov pod Radhoštěm, Czech Republic</span>
 
@@ -327,13 +349,15 @@
                         <li>Prototype of a Qt-based Android app</li>
                         <li>Technologies: Java, iText, Maven, NetBeans, C++, Qt 4.8, Qt 5, QML, OpenSSL,
                             Qt Creator, Git, Phabricator, Windows, Ubuntu, Android</li>
-                    </ul> <span class="keywords">Java C++ Qt Android </span>
-
+                    </ul> <span class="keywords"><span class="keyword">Java</span><span class="keyword">C++</span>
+                    <span
+                    class="keyword">Qt</span><span class="keyword">Android</span></span>
                 </div>
                 <div>
-                     <h3><em>Summer Student</em>,
+                     <h3>
+              <em>Summer Student</em>,
               <a href="http://home.web.cern.ch/">CERN</a>
-              </h3>
+            </h3>
  <span class="tenure">2013-07 — 2013-09</span>
  <span class="location">Geneva, Switzerland</span>
 
@@ -343,13 +367,13 @@
                     <ul>
                         <li>Summer school combined with a practical project</li>
                         <li>Technologies: C++, Clang Static Analyzer, Git, JIRA, Linux</li>
-                    </ul> <span class="keywords">C++ Clang Static Analyzer </span>
-
+                    </ul> <span class="keywords"><span class="keyword">C++</span><span class="keyword">Clang Static Analyzer</span></span>
                 </div>
                 <div>
-                     <h3><em>Software Design Engineer</em>,
+                     <h3>
+              <em>Software Design Engineer</em>,
               <a href="http://honeywell.com/">Honeywell</a>
-              </h3>
+            </h3>
  <span class="tenure">2012-04 — 2012-09</span>
  <span class="location">Brno, Czech Republic</span>
 
@@ -360,8 +384,7 @@
                         <li>Software development, code analysis, system verification planning, documentation,
                             cooperation with a team in the United States</li>
                         <li>Technologies: C++, Visual Studio 6, SVN, Serena Dimensions CM, Windows</li>
-                    </ul> <span class="keywords">C++ </span>
-
+                    </ul> <span class="keywords"><span class="keyword">C++</span></span>
                 </div>
             </section>
             <hr>
@@ -371,7 +394,10 @@
 
                 </header>
                 <div>
-                     <h3><em>Mgr.</em>, Charles University</h3>
+                     <h3>
+              <em>Master of Theoretical Computer Science</em>, 
+              <a href="https://cuni.cz/">Charles University</a>
+            </h3>
  <span class="tenure">2012-09 — 2015-06</span>
  <span class="location">Prague, Czech Republic</span>
 
@@ -384,7 +410,10 @@
                     </ul>
                 </div>
                 <div>
-                     <h3><em>Bc.</em>, Masaryk University</h3>
+                     <h3>
+              <em>Bachelor of Mathematical Informatics</em>, 
+              <a href="http://muni.cz/">Masaryk University</a>
+            </h3>
  <span class="tenure">2008-07 — 2012-01</span>
  <span class="location">Brno, Czech Republic</span>
 
@@ -401,80 +430,92 @@
 
                 </header>
                 <div>
-                     <h3><em>Programmer</em>,
-          <a href="https://globalgamejam.org/2019/games/ratata">Ratata</a>
+                     <h3>
+            <em>Programmer</em>,
+            <a href="https://globalgamejam.org/2019/games/ratata">Ratata</a>
           </h3>
  <span class="tenure">2019-01</span>
  <span class="location">Prague, Czech Republic</span>
 
-                    <p>A rhythm game for Windows created in Unity</p>
+                    <p>A rhythm game for Windows</p>
                     <ul>
-                        <li>Cooperation of four creators of various backgrounds</li>
+                        <li>Collaboration of four creators of various backgrounds</li>
                         <li>Created in 48 hours for <a href="https://globalgamejam.org/">Global Game Jam</a> 2019</li>
-                    </ul> <span class="keywords">Unity </span>
-
+                    </ul> <span class="keywords"><span class="keyword">Unity</span><span class="keyword">C#</span></span>
                 </div>
                 <div>
-                     <h3><em>Creator</em>,
-          <a href="https://github.com/filipbartek/nbspacer">nbspacer</a>
+                     <h3>
+            <em>Creator</em>,
+            <a href="https://github.com/filipbartek/nbspacer">nbspacer</a>
           </h3>
  <span class="tenure">2016-05 — 2016-06</span>
  <span class="location">Dolní Bečva, Czech Republic</span>
 
-                    <p>Replaces spaces in HTML documents with <code>&amp;nbsp;</code> where appropriate</p>
+                    <p>Replaces regular spaces in HTML documents with non-breaking spaces (<code>&amp;nbsp;</code>)
+                        where appropriate</p>
                     <ul>
-                        <li>Conservative (CVS-friendly) - only modifies the necessary characters</li>
-                        <li>Supports two languages: English and Czech</li>
-                    </ul> <span class="keywords">Python </span>
-
+                        <li>Conservative (<abbr title="Version control system">VCS</abbr>-friendly)
+                            - leaves the rest of the document intact</li>
+                        <li>Supports two languages: Czech and English</li>
+                        <li>Hobby project</li>
+                    </ul> <span class="keywords"><span class="keyword">Python</span></span>
                 </div>
                 <div>
-                     <h3><em>Programmer</em>,
-          <a href="https://geosign.hobrasoft.cz/">GeoSign</a>
+                     <h3>
+            <em>Programmer</em>,
+            <a href="https://geosign.hobrasoft.cz/">GeoSign</a>
           </h3>
  <span class="tenure">2015-10 — 2016-09</span>
  <span class="location">Rožnov pod Radhoštěm, Czech Republic</span>
 
                     <p>Assists Czech land surveyors in digitally signing documents and sending
-                        them to cadastre offices</p> <span class="keywords">C++ Qt 4.8 </span>
-
+                        them to cadastre offices</p>
+                    <ul>
+                        <li>Created for Hobrasoft</li>
+                    </ul> <span class="keywords"><span class="keyword">C++</span><span class="keyword">Qt 4.8</span></span>
                 </div>
                 <div>
-                     <h3><em>Creator</em>,
-          <a href="http://hobrasoft-cz.github.io/PDFMU/">PDF Manipulation Utility</a>
+                     <h3>
+            <em>Creator</em>,
+            <a href="http://hobrasoft-cz.github.io/PDFMU/">PDF Manipulation Utility</a>
           </h3>
  <span class="tenure">2015-10 — 2016-09</span>
  <span class="location">Rožnov pod Radhoštěm, Czech Republic</span>
 
-                    <p>A tool for manipulation with PDF documents</p>
+                    <p>A command-line tool for manipulation with PDF documents</p>
                     <ul>
-                        <li>Can be used to inspect, digitally sign or attach a file</li>
+                        <li>Supported operations: inspection of properties, adding a digital signature,
+                            attaching a file</li>
                         <li><a href="http://hobrasoft-cz.github.io/PDFMU/">Extensive project documentation</a>
                         </li>
-                    </ul> <span class="keywords">Java iText Maven </span>
-
+                        <li>Created for Hobrasoft</li>
+                    </ul> <span class="keywords"><span class="keyword">Java</span><span class="keyword">iText</span>
+                    <span
+                    class="keyword">Maven</span>
+                        </span>
                 </div>
                 <div>
-                     <h3><em>Creator</em>,
-          <a href="http://gamejolt.com/games/missls/64566">missls</a>
+                     <h3>
+            <em>Creator</em>,
+            <a href="http://gamejolt.com/games/missls/64566">missls</a>
           </h3>
  <span class="tenure">2015-04</span>
  <span class="location">Prague, Czech Republic</span>
 
                     <p>Tactical nuclear warfare party minigame</p>
                     <ul>
-                        <li>Originally created solo in 48 hours for the game jam <a href="http://ludumdare.com/compo/ludum-dare-32/">Ludum Dare 32</a>
+                        <li>Originally created in 48 hours for the game jam <a href="http://ludumdare.com/compo/ludum-dare-32/">Ludum Dare 32</a>
                         </li>
                         <li><a href="http://ludumdare.com/compo/ludum-dare-32/?action=preview&amp;uid=39872">Placed in top 8 % in category Mood</a>
                         </li>
                         <li>Interesting features: minimalistic design, vector graphics, 2D planetary
                             physics</li>
-                    </ul> <span class="keywords">GameMaker: Studio </span>
-
+                    </ul> <span class="keywords"><span class="keyword">GameMaker: Studio</span></span>
                 </div>
                 <div>
-                     <h3><em>Creator</em>,
-          <a href="https://cds.cern.ch/record/1597539">Static Analysis Suite</a>
+                     <h3>
+            <em>Creator</em>,
+            <a href="https://cds.cern.ch/record/1597539">Static Analysis Suite</a>
           </h3>
  <span class="tenure">2013-07 — 2013-09</span>
  <span class="location">Geneva, Switzerland</span>
@@ -483,12 +524,14 @@
                     <ul>
                         <li>Feasibility study of replacement of Coverity with Clang Static Analyser</li>
                         <li>Focus on multithreading bugs</li>
-                    </ul> <span class="keywords">Clang Static Analyzer </span>
-
+                        <li>Created for CERN (group: <a href="https://ep-dep.web.cern.ch/organisation/sft"><abbr title="Physics/Software">PH/SFT</abbr></a>)
+                            as a part of Summer Student Programme</li>
+                    </ul> <span class="keywords"><span class="keyword">Clang Static Analyzer</span></span>
                 </div>
                 <div>
-                     <h3><em>Programmer</em>,
-          <a href="http://filipbartek.github.io/mddc/">Magic Dance Dance Carpet</a>
+                     <h3>
+            <em>Programmer</em>,
+            <a href="http://filipbartek.github.io/mddc/">Magic Dance Dance Carpet</a>
           </h3>
  <span class="tenure">2012-11 — 2013-11</span>
  <span class="location">Prague, Czech Republic</span>
@@ -497,8 +540,9 @@
                     <ul>
                         <li>Collaboration of five students of various backgrounds</li>
                         <li>Interesting features: dance pad controls, concave world</li>
-                    </ul> <span class="keywords">Unreal Development Kit </span>
-
+                        <li>Created for the course <a href="https://artemis.ms.mff.cuni.cz/main/tiki-index.php?page=Computer%20games%20development">Computer games development</a> at
+                            Charles University</li>
+                    </ul> <span class="keywords"><span class="keyword">Unreal Development Kit</span></span>
                 </div>
             </section>
             <hr>
@@ -509,16 +553,15 @@
                 </header>
                 <div>
                      <h3>
-          <a href="https://cocalc.com/projects/f18cd484-a3f3-4c7d-a485-4c8f09c8b652/files/path_finding/?session=default">path_finding</a>
+            <a href="https://cocalc.com/projects/f18cd484-a3f3-4c7d-a485-4c8f09c8b652/files/path_finding/?session=default">path_finding</a>
           </h3>
  <span class="tenure">2015-01</span>
 
-                    <p>Visualization of A* search</p> <span class="keywords">SageMath </span>
-
+                    <p>Visualization of A* search</p> <span class="keywords"><span class="keyword">SageMath</span></span>
                 </div>
                 <div>
                      <h3>
-          <a href="https://github.com/filipbartek/srp">Stable roommates problem solver</a>
+            <a href="https://github.com/filipbartek/srp">Stable roommates problem solver</a>
           </h3>
  <span class="tenure">2014-09</span>
 
@@ -526,30 +569,29 @@
                     <ul>
                         <li><a href="http://filipbartek.github.io/srp/report.pdf">Report</a>
                         </li>
-                    </ul> <span class="keywords">Prolog clpfd </span>
-
+                    </ul> <span class="keywords"><span class="keyword">Prolog</span><span class="keyword">clpfd</span></span>
                 </div>
                 <div>
                      <h3>
-          <a href="https://github.com/filipbartek/NokiaWebGL">NokiaWebGL</a>
+            <a href="https://github.com/filipbartek/NokiaWebGL">NokiaWebGL</a>
           </h3>
  <span class="tenure">2014-06</span>
 
-                    <p>Extracts a 3D map of a large region from a Nokia service</p> <span class="keywords">Python </span>
-
+                    <p>Extracts a 3D map of a large region from a Nokia service</p> <span class="keywords"><span class="keyword">Python</span></span>
                 </div>
                 <div>
                      <h3>
-          <a href="http://filipbartek.github.io/queueing/queueing.pdf">Stationary analysis of one channel queueing systems</a>
+            <a href="http://filipbartek.github.io/queueing/queueing.pdf">Stationary analysis of one channel queueing systems</a>
           </h3>
  <span class="tenure">2014-06</span>
 
-                    <p>A mathematical analysis of a class of queueing systems</p> <span class="keywords">Mathematical modeling LaTeX SageMath </span>
-
+                    <p>A mathematical analysis of a class of queueing systems</p> <span class="keywords"><span class="keyword">Mathematical modeling</span>
+                    <span
+                    class="keyword">LaTeX</span><span class="keyword">SageMath</span></span>
                 </div>
                 <div>
                      <h3>
-          <a href="https://github.com/filiboja/slnkcctr">slnkcctr</a>
+            <a href="https://github.com/filiboja/slnkcctr">slnkcctr</a>
           </h3>
  <span class="tenure">2014-05</span>
 
@@ -558,8 +600,7 @@
                     <ul>
                         <li><a href="https://cocalc.com/share/a74372d3-72eb-4d0f-af58-57f48829f926/report/report.pdf?viewer=share">Report</a>
                         </li>
-                    </ul> <span class="keywords">C++ OpenCV </span>
-
+                    </ul> <span class="keywords"><span class="keyword">C++</span><span class="keyword">OpenCV</span></span>
                 </div>
             </section>
             <hr>
@@ -569,51 +610,65 @@
 
                 </header>
                 <div>
-                     <h3><em>Participant</em>,
+                     <h3>
+              <em>Participant</em>,
               <a href="https://globalgamejam.org/2019/games/ratata">Global Game Jam 2019</a>
-              </h3>
+            </h3>
  <span class="tenure">2019-01</span>
  <span class="location">Prague, Czech Republic</span>
 
-                    <p></p> <span class="keywords">Unity </span>
-
+                    <p></p> <span class="keywords"><span class="keyword">Unity</span></span>
                 </div>
                 <div>
-                     <h3><em>Attendee</em>,
+                     <h3>
+              <em>Attendee</em>,
               <a href="http://www.gdsession.com/">Game Developers Session</a>
-              </h3>
+            </h3>
  <span class="tenure">2018-12</span>
  <span class="location">Prague, Czech Republic</span>
 
-                    <p></p> <span class="keywords">Video game development </span>
-
+                    <p></p> <span class="keywords"><span class="keyword">Video game development</span></span>
                 </div>
                 <div>
-                     <h3><em>Student</em>,
+                     <h3>
+              <em>Attendee</em>,
+              <a href="https://www.agileopenspace.cz/">Agile Open Space</a>
+            </h3>
+ <span class="tenure">2017-11</span>
+ <span class="location">Prague, Czech Republic</span>
+
+                    <p></p> <span class="keywords"><span class="keyword">SCRUM</span></span>
+                </div>
+                <div>
+                     <h3>
+              <em>Student</em>,
               <a href="https://eu.udacity.com/course/software-testing--cs258">Software Testing (online course)</a>
-              </h3>
+            </h3>
  <span class="tenure">2016-04</span>
 
-                    <p></p> <span class="keywords">Python Test driven development Random testing </span>
-
+                    <p></p> <span class="keywords"><span class="keyword">Python</span><span class="keyword">Test driven development</span>
+                    <span
+                    class="keyword">Random testing</span>
+                        </span>
                 </div>
                 <div>
-                     <h3><em>Expert in English</em>,
+                     <h3>
+              <em>Expert in English</em>,
               <a href="https://certs.duolingo.com/d59xjfx9">Duolingo English Test</a>
-              </h3>
+            </h3>
  <span class="tenure">2015-07</span>
 
                     <p></p>
                 </div>
                 <div>
-                     <h3><em>Participant</em>,
+                     <h3>
+              <em>Participant</em>,
               <a href="http://ludumdare.com/compo/ludum-dare-32/?action=preview&uid=39872">Ludum Dare 32</a>
-              </h3>
+            </h3>
  <span class="tenure">2015-04</span>
  <span class="location">Prague, Czech Republic</span>
 
-                    <p></p> <span class="keywords">GameMaker: Studio </span>
-
+                    <p></p> <span class="keywords"><span class="keyword">GameMaker: Studio</span></span>
                 </div>
             </section>
             <hr>
@@ -638,7 +693,10 @@
 
                 </header>
                 <div>
-                     <h3><a href="https://www.linkedin.com/in/karthickng/"><em>Karthick N G</em></a> (manager), BTL India</h3>
+                     <h3>
+            <a href="https://www.linkedin.com/in/karthickng/"><em>Karthick N G</em></a>
+            (manager), BTL India
+          </h3>
  <span class="tenure">2018-10</span>
 
                     <p>It was wonderful working together with you when I was at BTL. I remember
@@ -647,7 +705,10 @@
                         for any software team.</p>
                 </div>
                 <div>
-                     <h3><a href="https://www.linkedin.com/in/nikhilaugustine/"><em>Nikhil Augustine</em></a> (co-worker), BTL India</h3>
+                     <h3>
+            <a href="https://www.linkedin.com/in/nikhilaugustine/"><em>Nikhil Augustine</em></a>
+            (co-worker), BTL India
+          </h3>
  <span class="tenure">2018-11</span>
 
                     <p>I just wanted to say a big Thank you at this moment, You nay not have
