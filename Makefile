@@ -11,6 +11,7 @@ education.json \
 social-0.json \
 languages.json \
 samples.json \
+testimonials.json \
 extracurricular.json
 
 sources_html = \
