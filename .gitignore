@@ -2,3 +2,6 @@
 /resume-pdf.json
 /fresh/
 /jrs/
+
+# Sublime Text 3
+*.sublime-workspace
