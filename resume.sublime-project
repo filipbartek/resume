@@ -1,0 +1,23 @@
+{
+    "folders":
+    [
+        {
+            "path": ".",
+            "file_exclude_patterns": [
+                "resume-*.json"
+            ],
+            "folder_exclude_patterns": [
+                "*"
+            ]
+        },
+        {
+            "path": "src"
+        },
+        {
+            "path": "fresh-resume-schema/schema"
+        },
+        {
+            "path": "fresh-themes/themes"
+        }
+    ]
+}
