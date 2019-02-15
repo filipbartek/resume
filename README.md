@@ -2,8 +2,7 @@
 
 ## Quick start
 
-`make`
-
-## Root document
-
-`resume.json`
+```
+make
+xdg-open docs/index.html
+```
