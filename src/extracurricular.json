@@ -26,6 +26,17 @@
       ]
     },
     {
+      "title": "Attendee",
+      "activity": "Agile Open Space",
+      "location": "Prague, Czech Republic",
+      "start": "2017-11-28",
+      "end": "2017-11-28",
+      "url": "https://www.agileopenspace.cz/",
+      "keywords": [
+        "SCRUM"
+      ]
+    },
+    {
       "title": "Student",
       "activity": "Software Testing (online course)",
       "start": "2016-04-16",
