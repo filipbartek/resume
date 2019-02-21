@@ -44,7 +44,7 @@
     {
       "title": "GeoSign",
       "category": "commercial",
-      "summary": "Assists Czech land surveyors in digitally signing documents and sending them to cadastre offices",
+      "summary": "Assists Czech land surveyors in digitally signing documents and submitting them to cadastre offices",
       "role": "Programmer",
       "url": "https://geosign.hobrasoft.cz/",
       "start": "2015-10-19",
@@ -68,7 +68,7 @@
       "start": "2015-10-19",
       "end": "2016-09-15",
       "highlights": [
-        "Supported operations: inspection of properties, adding a digital signature, attaching a file",
+        "Supports inspection and modification of properties, digital signatures and attachments",
         "[Extensive project documentation](http://hobrasoft-cz.github.io/PDFMU/)",
         "Created for Hobrasoft"
       ],
@@ -101,7 +101,7 @@
     {
       "title": "Static Analysis Suite",
       "category": "open-source",
-      "summary": "Extension of Clang Static Analyzer with a custom checker",
+      "summary": "Extension of Clang Static Analyzer with custom checkers",
       "role": "Creator",
       "url": "https://cds.cern.ch/record/1597539",
       "start": "2013-07-01",
