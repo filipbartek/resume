@@ -12,7 +12,8 @@ social-0.json \
 languages.json \
 samples.json \
 testimonials.json \
-extracurricular.json
+extracurricular.json \
+affiliation.json
 
 sources_html = \
 basic.json \
