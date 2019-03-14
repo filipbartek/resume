@@ -113,7 +113,8 @@
       ],
       "location": "Geneva, Switzerland",
       "keywords": [
-        "Clang Static Analyzer"
+        "Clang Static Analyzer",
+        "C++"
       ]
     },
     {

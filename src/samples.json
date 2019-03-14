@@ -9,7 +9,8 @@
       "url": "https://cocalc.com/projects/f18cd484-a3f3-4c7d-a485-4c8f09c8b652/files/path_finding/?session=default",
       "date": "2015-01-11",
       "keywords": [
-        "SageMath"
+        "SageMath",
+        "Python"
       ]
     },
     {
@@ -22,7 +23,8 @@
       ],
       "keywords": [
         "Prolog",
-        "clpfd"
+        "clpfd",
+        "Constraint programming"
       ]
     },
     {
