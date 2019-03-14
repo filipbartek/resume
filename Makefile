@@ -63,7 +63,7 @@ docs/index.html: resume-html.json
 	hackmyresume build $+ to $@ --no-escape -t fresh-themes/themes/positive
 
 resume-pdf.json: $(addprefix src/,$(sources_pdf))
-	./jsonmerge-cli.py $+ > $@
+	./jsonmerge-cli.py $+ | jq 'delpaths([["education", "history", 1], ["extracurricular", 3], ["extracurricular", 4], ["extracurricular", 8], ["projects", 0]])' > $@
 
 docs/bartekfilip-resume-en.pdf: resume-pdf.json
 	hackmyresume build $+ to $@ --no-escape -t fresh-themes/themes/compact
