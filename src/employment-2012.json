@@ -10,7 +10,7 @@
         "url": "https://www.medictech.com/",
         "start": "2017-11-13",
         "end": "2018-11-23",
-        "summary": "Development of a library for ECG signal processing",
+        "summary": "Development of a library for <abbr title=\"Electrocardiography\">ECG</abbr> signal processing",
         "highlights": [
           "Supervision of builds for two target platforms",
           "Cooperation with a team based in India",
