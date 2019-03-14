@@ -5,6 +5,54 @@
   "extracurricular": [
     {
       "title": "Participant",
+      "activity": "Topcoder Single Round Match (10 competitions)",
+      "start": "2016-06-25",
+      "url": "https://www.topcoder.com/members/filip.bartek/details/?track=DATA_SCIENCE&subTrack=SRM",
+      "keywords": [
+        "Algorithmization",
+        "Competitive programming",
+        "C++",
+        "Python"
+      ],
+      "highlights": [
+        "Username: [filip.bartek](https://www.topcoder.com/members/filip.bartek)",
+        "Rating: 1240 (percentile: 58 %)"
+      ]
+    },
+    {
+      "title": "Participant",
+      "activity": "Topcoder Quantum Computing - 3 Learning Challenges",
+      "start": "2019-02-01",
+      "end": "2019-03-15",
+      "url": "https://www.topcoder.com/lp/digitalannealer",
+      "keywords": [
+        "Python",
+        "Digital Annealer",
+        "<abbr title=\"Quadratic Unconstrained Binary Optimization\">QUBO</a>",
+        "Optimization",
+        "Constraint programming"
+      ]
+    },
+    {
+      "title": "Participant",
+      "activity": "Google Hash Code 2019 Online Qualification Round",
+      "location": "Prague, Czech Republic",
+      "start": "2019-02-28",
+      "end": "2019-02-28",
+      "url": "https://codingcompetitions.withgoogle.com/hashcode/certificate/round/0000000000050094",
+      "keywords": [
+        "Python",
+        "Algorithmization",
+        "Optimization"
+      ],
+      "highlights": [
+        "Team: Prague Pandas (two members)",
+        "Rank: [581 of 6639](https://codingcompetitions.withgoogle.com/hashcode/archive/2019) (percentile: 91 %)",
+        "Source code: [github.com/filipbartek/hashcode2019qualification](https://github.com/filipbartek/hashcode2019qualification)"
+      ]
+    },
+    {
+      "title": "Participant",
       "activity": "Global Game Jam 2019",
       "location": "Prague, Czech Republic",
       "start": "2019-01-25",
@@ -33,7 +81,7 @@
       "end": "2017-11-28",
       "url": "https://www.agileopenspace.cz/",
       "keywords": [
-        "SCRUM"
+        "Scrum"
       ]
     },
     {
@@ -53,7 +101,13 @@
       "activity": "Duolingo English Test",
       "start": "2015-07-14",
       "end": "2015-07-14",
-      "url": "https://certs.duolingo.com/d59xjfx9"
+      "url": "https://certs.duolingo.com/d59xjfx9",
+      "keywords": [
+        "English"
+      ],
+      "highlights": [
+        "Score: 100 / 100"
+      ]
     },
     {
       "title": "Participant",
