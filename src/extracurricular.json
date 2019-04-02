@@ -5,7 +5,7 @@
   "extracurricular": [
     {
       "title": "Participant",
-      "activity": "Topcoder Single Round Match (10 competitions)",
+      "activity": "Topcoder Single Round Match (11 competitions)",
       "start": "2016-06-25",
       "url": "https://www.topcoder.com/members/filip.bartek/details/?track=DATA_SCIENCE&subTrack=SRM",
       "keywords": [
@@ -16,14 +16,14 @@
       ],
       "highlights": [
         "Username: [filip.bartek](https://www.topcoder.com/members/filip.bartek)",
-        "Rating: 1240 (percentile: 58 %)"
+        "Rating: 1230 (percentile: 60 %)"
       ]
     },
     {
       "title": "Participant",
-      "activity": "Topcoder Quantum Computing - 3 Learning Challenges",
+      "activity": "Topcoder Quantum Computing Challenge Series",
       "start": "2019-02-01",
-      "end": "2019-03-15",
+      "end": "2019-03-31",
       "url": "https://www.topcoder.com/lp/digitalannealer",
       "keywords": [
         "Python",
@@ -31,6 +31,9 @@
         "<abbr title=\"Quadratic Unconstrained Binary Optimization\">QUBO</a>",
         "Optimization",
         "Constraint programming"
+      ],
+      "highlights": [
+        "3 Learning Challenges and a Marathon Match"
       ]
     },
     {
