@@ -5,15 +5,9 @@ basic.json \
 info-label.json \
 disposition.json \
 employment-2012.json \
-projects.json \
-skills.json \
 education.json \
 social-0.json \
-languages.json \
-samples.json \
-testimonials.json \
-extracurricular.json \
-affiliation.json
+languages.json
 
 sources_html = \
 basic.json \
@@ -63,7 +57,7 @@ docs/index.html: resume-html.json
 	hackmyresume build $+ to $@ --no-escape -t fresh-themes/themes/positive
 
 resume-pdf.json: $(addprefix src/,$(sources_pdf))
-	./jsonmerge-cli.py $+ | jq 'delpaths([["education", "history", 1], ["extracurricular", 3], ["extracurricular", 4], ["extracurricular", 8], ["projects", 0]])' > $@
+	./jsonmerge-cli.py $+ | jq 'delpaths([["extracurricular", 3], ["extracurricular", 4], ["extracurricular", 5], ["extracurricular", 8], ["samples", 2], ["samples", 4]])' > $@
 
 docs/bartekfilip-resume-en.pdf: resume-pdf.json
 	hackmyresume build $+ to $@ --no-escape -t fresh-themes/themes/compact
